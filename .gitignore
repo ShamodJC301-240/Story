@@ -1,0 +1,5 @@
+secrets.txt
+
+#This is how to comment inside of a gitignore file
+
+# By using an asterisk following a file extension such as *.txt or *.png, they won't appear inside of file and be ignored
