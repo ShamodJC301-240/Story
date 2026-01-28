@@ -1,0 +1,10 @@
+<%- include('../partials/header') %>
+
+<h1>My Stories</h1>
+<ul>
+  <% chapters.forEach(chap => { %>
+    <li><a href="/chapter/<%= chap.split('.')[0] %>">Chapter <%= chap.split('.')[0] %></a></li>
+  <% }) %>
+</ul>
+
+<%- include('../partials/footer') %>
